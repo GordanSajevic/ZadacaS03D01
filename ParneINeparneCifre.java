@@ -60,6 +60,13 @@ public class ParneINeparneCifre {
 		int broj = unos.nextInt();
 		System.out.println("Sve parne cifre: " + Podbroj(broj, true));
 		System.out.println("Sve neparne cifre: " + Podbroj(broj, false));
+		while (broj != 0)
+		{
+			System.out.println("Unesite broj: ");
+			broj = unos.nextInt();
+			System.out.println("Sve parne cifre: " + Podbroj(broj, true));
+			System.out.println("Sve neparne cifre: " + Podbroj(broj, false));
+		}
 	}
 
 }
